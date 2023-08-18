@@ -8,7 +8,7 @@ export const Navbar = () => {
 		<nav className="navbar navbar-light bg-light">
 			<div className="container">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
+					<span className="navbar-brand mb-0 h1">My Star Wars Blog</span>
 				</Link>
 				<div className="ml-auto">
 					<div className="dropdown">
@@ -20,7 +20,7 @@ export const Navbar = () => {
 								return(
 									<li>
 										<a className="dropdown-item" href="#">{item}</a>
-										<button className="btn btn-danger" onClick={()=> actions.deletefavorites(index)}>del</button>
+										<button className="btn btn-danger" onClick={()=> actions.deletefavorites(index)}>Delete</button>
 									</li>
 								)
 							})}
